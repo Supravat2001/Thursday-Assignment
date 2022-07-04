@@ -2,10 +2,12 @@ package BasicPrograms;
 
 import java.util.Scanner;
 
-public class ArmStrongOrNot {
+public class ArmStrongOrNot
+{
 	
 	
-	public static void ArmsNo(int no) { //creating method to check armstrong number
+	public static void ArmsNo(int no)
+	{ //creating method to check armstrong number
         int temp,result=0,digit; //declaring variables
 
         temp = no;
@@ -22,8 +24,9 @@ public class ArmStrongOrNot {
             System.out.println(no + " is an Armstrong number.");
         else
             System.out.println(no + " is not an Armstrong number.");
-    }
-	public static void main(String[] args){
+        }
+	public static void main(String[] args)
+	{
 		int jn; //declearing variables
 		Scanner sc=new Scanner(System.in); //creating scanner calss object 
 		System.out.println("enter number to check it's arms");
